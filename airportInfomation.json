@@ -1,0 +1,22 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "title": "Airline Information",
+   "description": "Airline name and toAirport",
+   "type": "object",
+	
+   "properties": {
+	
+      "airlineName": {
+         "description": "Name of the airline",
+         "type": "string"
+      },
+		
+      "toAirport": {
+         "description": "Destination of the flight",
+         "type": "string"
+      }
+   },
+	
+   "required": ["airlineName", "toAirport"]
+}
+
